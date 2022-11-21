@@ -1,0 +1,46 @@
+*{
+    background-color: grey;
+}
+
+.tit {
+text-align: center;
+}
+
+.blockone {
+    display: flex;
+    margin-left:5% ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.comp {
+    margin-left: 30%;
+
+}
+
+.blocktwo {
+    display: flex;
+    margin-left:5% ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.xp {
+    margin-left: 30%;
+}
+
+#h2 {
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+@media screen and (max-width: 540px) {
+    .blockone {
+        width: 20%;
+    }
+    .blocktwo {
+        width: 20%;
+    }
+}
